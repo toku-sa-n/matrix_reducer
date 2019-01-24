@@ -34,14 +34,6 @@ int main(void)
         }
         // Switch to the next column.
         pivot_x++;
-        // Print the reduced matrix.
-        for (int yi = 0; yi < MATRIX_HEIGHT; yi++) {
-            for (int xi = 0; xi < MATRIX_WIDTH; xi++) {
-                printf("%5.1lf ", matrix[yi][xi]);
-            }
-            putchar('\n');
-        }
-        putchar('\n');
     }
     // Print the reduced matrix.
     for (int yi = 0; yi < MATRIX_HEIGHT; yi++) {
